@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xp3-iM-Msj">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Status View Controller-->
+        <scene sceneID="40D-mC-6VM">
+            <objects>
+                <viewController id="E4N-NK-q4p" customClass="StatusViewController" customModule="MuseConnector" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wuS-BU-SnJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="I6u-1H-yKp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DAH-hD-fOx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="BdE-4w-EQh">
+                                <rect key="frame" x="253" y="299" width="150" height="2"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eDX-qI-7pk"/>
+                    <connections>
+                        <outlet property="ConcentrationScore" destination="DAH-hD-fOx" id="46c-IV-KqY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ig9-BE-WXy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="336" y="414"/>
+        </scene>
+        <!--Auth ControllerVC-->
+        <scene sceneID="UzP-Uw-w4c">
+            <objects>
+                <viewController id="xp3-iM-Msj" customClass="AuthControllerVC" customModule="MuseConnector" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e5k-gh-Ohz"/>
+                        <viewControllerLayoutGuide type="bottom" id="3La-E0-7bP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="S60-7U-cPm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2y-g2-GdH">
+                                <rect key="frame" x="247" y="245" width="106" height="30"/>
+                                <state key="normal" title="LoginWithSlack"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBW-hJ-hEN">
+                                <rect key="frame" x="218" y="90" width="86" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="LoginWithSlack" destination="l2y-g2-GdH" id="GXt-0O-Ihv"/>
+                        <segue destination="E4N-NK-q4p" kind="push" id="PYa-bJ-41K"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kqH-BL-u7y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1111" y="414"/>
+        </scene>
+    </scenes>
+</document>

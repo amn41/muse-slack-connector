@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C8111B4B2C7AD7DB98BE4BE /* Pods_MuseConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FD36C0694FE34D1C67EB44 /* Pods_MuseConnector.framework */; };
+		E74FF12D1C5AA43500610A92 /* EZSwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74FF12C1C5AA43500610A92 /* EZSwipeController.swift */; };
+		E7749C4F1C5A9CE700CD2C02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7749C3A1C5A9CE700CD2C02 /* AppDelegate.swift */; settings = {COMPILER_FLAGS = "-ObjC"; }; };
+		E7749C511C5A9CE700CD2C02 /* AuthControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7749C3C1C5A9CE700CD2C02 /* AuthControllerVC.swift */; };
+		E7749C521C5A9CE700CD2C02 /* AuthControllerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7749C3D1C5A9CE700CD2C02 /* AuthControllerVC.xib */; };
+		E7749C551C5A9CE700CD2C02 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7749C401C5A9CE700CD2C02 /* StatusViewController.swift */; };
+		E7749C5C1C5A9CE700CD2C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7749C481C5A9CE700CD2C02 /* Main.storyboard */; };
+		E7749C5D1C5A9CE700CD2C02 /* MainExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7749C491C5A9CE700CD2C02 /* MainExtensions.swift */; };
+		E7749C5E1C5A9CE700CD2C02 /* MainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7749C4A1C5A9CE700CD2C02 /* MainStore.swift */; };
+		E7749C5F1C5A9CE700CD2C02 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7749C4B1C5A9CE700CD2C02 /* PageController.swift */; };
+		E7749C601C5A9CE700CD2C02 /* SlackAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7749C4C1C5A9CE700CD2C02 /* SlackAPI.swift */; };
+		E7C5616D1C5ABB92005CC4C5 /* StatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7C5616C1C5ABB92005CC4C5 /* StatusViewController.xib */; };
+		E7C561911C5B57EF005CC4C5 /* libMuse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C561901C5B57EF005CC4C5 /* libMuse.a */; };
+		E7C561981C5B613D005CC4C5 /* LoggingListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C561971C5B613D005CC4C5 /* LoggingListener.swift */; };
+		E7C5619C1C5D4337005CC4C5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C5619B1C5D4337005CC4C5 /* libc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DF6B6EBAFAE8B64E73C5524 /* Pods-MuseConnector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseConnector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuseConnector/Pods-MuseConnector.debug.xcconfig"; sourceTree = "<group>"; };
+		42FD36C0694FE34D1C67EB44 /* Pods_MuseConnector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuseConnector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7B6EF51FC1E96F9BF77841 /* Pods-MuseConnector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseConnector.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuseConnector/Pods-MuseConnector.release.xcconfig"; sourceTree = "<group>"; };
+		E74FF12C1C5AA43500610A92 /* EZSwipeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EZSwipeController.swift; path = MuseConnector/EZSwipeController/EZSwipeController.swift; sourceTree = SOURCE_ROOT; };
+		E76036FD1C19F69500A3A27F /* MuseConnector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MuseConnector.entitlements; sourceTree = "<group>"; };
+		E7749C3A1C5A9CE700CD2C02 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MuseConnector/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		E7749C3C1C5A9CE700CD2C02 /* AuthControllerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthControllerVC.swift; path = MuseConnector/AuthControllerVC.swift; sourceTree = SOURCE_ROOT; };
+		E7749C3D1C5A9CE700CD2C02 /* AuthControllerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AuthControllerVC.xib; path = MuseConnector/AuthControllerVC.xib; sourceTree = SOURCE_ROOT; };
+		E7749C401C5A9CE700CD2C02 /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatusViewController.swift; path = MuseConnector/StatusViewController.swift; sourceTree = SOURCE_ROOT; };
+		E7749C471C5A9CE700CD2C02 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MuseConnector/Info.plist; sourceTree = SOURCE_ROOT; };
+		E7749C481C5A9CE700CD2C02 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = MuseConnector/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		E7749C491C5A9CE700CD2C02 /* MainExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainExtensions.swift; path = MuseConnector/MainExtensions.swift; sourceTree = SOURCE_ROOT; };
+		E7749C4A1C5A9CE700CD2C02 /* MainStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainStore.swift; path = MuseConnector/MainStore.swift; sourceTree = SOURCE_ROOT; };
+		E7749C4B1C5A9CE700CD2C02 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageController.swift; path = MuseConnector/PageController.swift; sourceTree = SOURCE_ROOT; };
+		E7749C4C1C5A9CE700CD2C02 /* SlackAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlackAPI.swift; path = MuseConnector/SlackAPI.swift; sourceTree = SOURCE_ROOT; };
+		E7C5616C1C5ABB92005CC4C5 /* StatusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatusViewController.xib; sourceTree = "<group>"; };
+		E7C561711C5B57EF005CC4C5 /* EAAccessory+IXNAccessoryMuse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EAAccessory+IXNAccessoryMuse.h"; sourceTree = "<group>"; };
+		E7C561721C5B57EF005CC4C5 /* IXNAccelerometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNAccelerometer.h; sourceTree = "<group>"; };
+		E7C561731C5B57EF005CC4C5 /* IXNAnnotationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNAnnotationData.h; sourceTree = "<group>"; };
+		E7C561741C5B57EF005CC4C5 /* IXNAnnotationFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNAnnotationFormat.h; sourceTree = "<group>"; };
+		E7C561751C5B57EF005CC4C5 /* IXNBattery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNBattery.h; sourceTree = "<group>"; };
+		E7C561761C5B57EF005CC4C5 /* IXNComputingDeviceConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNComputingDeviceConfiguration.h; sourceTree = "<group>"; };
+		E7C561771C5B57EF005CC4C5 /* IXNConnectionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNConnectionState.h; sourceTree = "<group>"; };
+		E7C561781C5B57EF005CC4C5 /* IXNDrlRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNDrlRef.h; sourceTree = "<group>"; };
+		E7C561791C5B57EF005CC4C5 /* IXNDspData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNDspData.h; sourceTree = "<group>"; };
+		E7C5617A1C5B57EF005CC4C5 /* IXNEeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNEeg.h; sourceTree = "<group>"; };
+		E7C5617B1C5B57EF005CC4C5 /* IXNLibMuseVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNLibMuseVersion.h; sourceTree = "<group>"; };
+		E7C5617C1C5B57EF005CC4C5 /* IXNMessageType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNMessageType.h; sourceTree = "<group>"; };
+		E7C5617D1C5B57EF005CC4C5 /* IXNMuse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNMuse.h; sourceTree = "<group>"; };
+		E7C5617E1C5B57EF005CC4C5 /* IXNMuseArtifactPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNMuseArtifactPacket.h; sourceTree = "<group>"; };
+		E7C5617F1C5B57EF005CC4C5 /* IXNMuseConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNMuseConfiguration.h; sourceTree = "<group>"; };
+		E7C561801C5B57EF005CC4C5 /* IXNMuseConnectionListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNMuseConnectionListener.h; sourceTree = "<group>"; };
+		E7C561811C5B57EF005CC4C5 /* IXNMuseConnectionPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNMuseConnectionPacket.h; sourceTree = "<group>"; };
+		E7C561821C5B57EF005CC4C5 /* IXNMuseDataListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNMuseDataListener.h; sourceTree = "<group>"; };
+		E7C561831C5B57EF005CC4C5 /* IXNMuseDataPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNMuseDataPacket.h; sourceTree = "<group>"; };
+		E7C561841C5B57EF005CC4C5 /* IXNMuseDataPacketType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNMuseDataPacketType.h; sourceTree = "<group>"; };
+		E7C561851C5B57EF005CC4C5 /* IXNMuseFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNMuseFile.h; sourceTree = "<group>"; };
+		E7C561861C5B57EF005CC4C5 /* IXNMuseFileFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNMuseFileFactory.h; sourceTree = "<group>"; };
+		E7C561871C5B57EF005CC4C5 /* IXNMuseFileIos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNMuseFileIos.h; sourceTree = "<group>"; };
+		E7C561881C5B57EF005CC4C5 /* IXNMuseFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNMuseFileReader.h; sourceTree = "<group>"; };
+		E7C561891C5B57EF005CC4C5 /* IXNMuseFileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNMuseFileWriter.h; sourceTree = "<group>"; };
+		E7C5618A1C5B57EF005CC4C5 /* IXNMuseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNMuseManager.h; sourceTree = "<group>"; };
+		E7C5618B1C5B57EF005CC4C5 /* IXNMusePreset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNMusePreset.h; sourceTree = "<group>"; };
+		E7C5618C1C5B57EF005CC4C5 /* IXNMuseVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNMuseVersion.h; sourceTree = "<group>"; };
+		E7C5618D1C5B57EF005CC4C5 /* IXNNotchFrequency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNNotchFrequency.h; sourceTree = "<group>"; };
+		E7C5618E1C5B57EF005CC4C5 /* IXNSenderInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNSenderInformation.h; sourceTree = "<group>"; };
+		E7C5618F1C5B57EF005CC4C5 /* Muse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Muse.h; sourceTree = "<group>"; };
+		E7C561901C5B57EF005CC4C5 /* libMuse.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMuse.a; path = MuseConnector/libMuse.a; sourceTree = "<group>"; };
+		E7C561921C5B5C07005CC4C5 /* MuseConnector-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MuseConnector-Bridging-Header.h"; sourceTree = "<group>"; };
+		E7C561971C5B613D005CC4C5 /* LoggingListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggingListener.swift; sourceTree = "<group>"; };
+		E7C5619B1C5D4337005CC4C5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E7F7D7521C16D58E00BCABF2 /* MuseConnector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuseConnector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7F7D74F1C16D58E00BCABF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C5619C1C5D4337005CC4C5 /* libc++.tbd in Frameworks */,
+				8C8111B4B2C7AD7DB98BE4BE /* Pods_MuseConnector.framework in Frameworks */,
+				E7C561911C5B57EF005CC4C5 /* libMuse.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E1E6C3DAB67D333218ED14B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DF6B6EBAFAE8B64E73C5524 /* Pods-MuseConnector.debug.xcconfig */,
+				9A7B6EF51FC1E96F9BF77841 /* Pods-MuseConnector.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5989A01BBEF510648566F99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7C5619B1C5D4337005CC4C5 /* libc++.tbd */,
+				42FD36C0694FE34D1C67EB44 /* Pods_MuseConnector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E74EFCC91C5AA23200CC1FA3 /* EZSwipeController */ = {
+			isa = PBXGroup;
+			children = (
+				E74FF12C1C5AA43500610A92 /* EZSwipeController.swift */,
+			);
+			name = EZSwipeController;
+			path = MuseConnector/EZSwipeController;
+			sourceTree = "<group>";
+		};
+		E7C5616F1C5B57EF005CC4C5 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				E7C561701C5B57EF005CC4C5 /* Muse */,
+			);
+			name = Headers;
+			path = MuseConnector/Headers;
+			sourceTree = "<group>";
+		};
+		E7C561701C5B57EF005CC4C5 /* Muse */ = {
+			isa = PBXGroup;
+			children = (
+				E7C561711C5B57EF005CC4C5 /* EAAccessory+IXNAccessoryMuse.h */,
+				E7C561721C5B57EF005CC4C5 /* IXNAccelerometer.h */,
+				E7C561731C5B57EF005CC4C5 /* IXNAnnotationData.h */,
+				E7C561741C5B57EF005CC4C5 /* IXNAnnotationFormat.h */,
+				E7C561751C5B57EF005CC4C5 /* IXNBattery.h */,
+				E7C561761C5B57EF005CC4C5 /* IXNComputingDeviceConfiguration.h */,
+				E7C561771C5B57EF005CC4C5 /* IXNConnectionState.h */,
+				E7C561781C5B57EF005CC4C5 /* IXNDrlRef.h */,
+				E7C561791C5B57EF005CC4C5 /* IXNDspData.h */,
+				E7C5617A1C5B57EF005CC4C5 /* IXNEeg.h */,
+				E7C5617B1C5B57EF005CC4C5 /* IXNLibMuseVersion.h */,
+				E7C5617C1C5B57EF005CC4C5 /* IXNMessageType.h */,
+				E7C5617D1C5B57EF005CC4C5 /* IXNMuse.h */,
+				E7C5617E1C5B57EF005CC4C5 /* IXNMuseArtifactPacket.h */,
+				E7C5617F1C5B57EF005CC4C5 /* IXNMuseConfiguration.h */,
+				E7C561801C5B57EF005CC4C5 /* IXNMuseConnectionListener.h */,
+				E7C561811C5B57EF005CC4C5 /* IXNMuseConnectionPacket.h */,
+				E7C561821C5B57EF005CC4C5 /* IXNMuseDataListener.h */,
+				E7C561831C5B57EF005CC4C5 /* IXNMuseDataPacket.h */,
+				E7C561841C5B57EF005CC4C5 /* IXNMuseDataPacketType.h */,
+				E7C561851C5B57EF005CC4C5 /* IXNMuseFile.h */,
+				E7C561861C5B57EF005CC4C5 /* IXNMuseFileFactory.h */,
+				E7C561871C5B57EF005CC4C5 /* IXNMuseFileIos.h */,
+				E7C561881C5B57EF005CC4C5 /* IXNMuseFileReader.h */,
+				E7C561891C5B57EF005CC4C5 /* IXNMuseFileWriter.h */,
+				E7C5618A1C5B57EF005CC4C5 /* IXNMuseManager.h */,
+				E7C5618B1C5B57EF005CC4C5 /* IXNMusePreset.h */,
+				E7C5618C1C5B57EF005CC4C5 /* IXNMuseVersion.h */,
+				E7C5618D1C5B57EF005CC4C5 /* IXNNotchFrequency.h */,
+				E7C5618E1C5B57EF005CC4C5 /* IXNSenderInformation.h */,
+				E7C5618F1C5B57EF005CC4C5 /* Muse.h */,
+			);
+			path = Muse;
+			sourceTree = "<group>";
+		};
+		E7F7D7491C16D58E00BCABF2 = {
+			isa = PBXGroup;
+			children = (
+				E7C561921C5B5C07005CC4C5 /* MuseConnector-Bridging-Header.h */,
+				E76036FD1C19F69500A3A27F /* MuseConnector.entitlements */,
+				E7C5616F1C5B57EF005CC4C5 /* Headers */,
+				E7C561901C5B57EF005CC4C5 /* libMuse.a */,
+				E7F7D7541C16D58E00BCABF2 /* MuseConnector */,
+				E7F7D7531C16D58E00BCABF2 /* Products */,
+				E5989A01BBEF510648566F99 /* Frameworks */,
+				1E1E6C3DAB67D333218ED14B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E7F7D7531C16D58E00BCABF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7F7D7521C16D58E00BCABF2 /* MuseConnector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7F7D7541C16D58E00BCABF2 /* MuseConnector */ = {
+			isa = PBXGroup;
+			children = (
+				E74EFCC91C5AA23200CC1FA3 /* EZSwipeController */,
+				E7749C3A1C5A9CE700CD2C02 /* AppDelegate.swift */,
+				E7C561971C5B613D005CC4C5 /* LoggingListener.swift */,
+				E7749C3C1C5A9CE700CD2C02 /* AuthControllerVC.swift */,
+				E7749C3D1C5A9CE700CD2C02 /* AuthControllerVC.xib */,
+				E7749C401C5A9CE700CD2C02 /* StatusViewController.swift */,
+				E7C5616C1C5ABB92005CC4C5 /* StatusViewController.xib */,
+				E7749C471C5A9CE700CD2C02 /* Info.plist */,
+				E7749C481C5A9CE700CD2C02 /* Main.storyboard */,
+				E7749C491C5A9CE700CD2C02 /* MainExtensions.swift */,
+				E7749C4A1C5A9CE700CD2C02 /* MainStore.swift */,
+				E7749C4B1C5A9CE700CD2C02 /* PageController.swift */,
+				E7749C4C1C5A9CE700CD2C02 /* SlackAPI.swift */,
+			);
+			path = MuseConnector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7F7D7511C16D58E00BCABF2 /* MuseConnector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7F7D7681C16D58E00BCABF2 /* Build configuration list for PBXNativeTarget "MuseConnector" */;
+			buildPhases = (
+				5494BBC90347EE5AEA802769 /* Check Pods Manifest.lock */,
+				E7F7D74E1C16D58E00BCABF2 /* Sources */,
+				E7F7D74F1C16D58E00BCABF2 /* Frameworks */,
+				E7F7D7501C16D58E00BCABF2 /* Resources */,
+				FF9B83A735531BCAC3CDC4AC /* Embed Pods Frameworks */,
+				D0840501315C2A5375E005A6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuseConnector;
+			productName = MuseConnector;
+			productReference = E7F7D7521C16D58E00BCABF2 /* MuseConnector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7F7D74A1C16D58E00BCABF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alan Nichol";
+				TargetAttributes = {
+					E7F7D7511C16D58E00BCABF2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = T9E47H53E8;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E7F7D74D1C16D58E00BCABF2 /* Build configuration list for PBXProject "MuseConnector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7F7D7491C16D58E00BCABF2;
+			productRefGroup = E7F7D7531C16D58E00BCABF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7F7D7511C16D58E00BCABF2 /* MuseConnector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7F7D7501C16D58E00BCABF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C5616D1C5ABB92005CC4C5 /* StatusViewController.xib in Resources */,
+				E7749C521C5A9CE700CD2C02 /* AuthControllerVC.xib in Resources */,
+				E7749C5C1C5A9CE700CD2C02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5494BBC90347EE5AEA802769 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0840501315C2A5375E005A6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuseConnector/Pods-MuseConnector-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF9B83A735531BCAC3CDC4AC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuseConnector/Pods-MuseConnector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7F7D74E1C16D58E00BCABF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7749C511C5A9CE700CD2C02 /* AuthControllerVC.swift in Sources */,
+				E7C561981C5B613D005CC4C5 /* LoggingListener.swift in Sources */,
+				E7749C4F1C5A9CE700CD2C02 /* AppDelegate.swift in Sources */,
+				E7749C601C5A9CE700CD2C02 /* SlackAPI.swift in Sources */,
+				E7749C5F1C5A9CE700CD2C02 /* PageController.swift in Sources */,
+				E74FF12D1C5AA43500610A92 /* EZSwipeController.swift in Sources */,
+				E7749C5E1C5A9CE700CD2C02 /* MainStore.swift in Sources */,
+				E7749C5D1C5A9CE700CD2C02 /* MainExtensions.swift in Sources */,
+				E7749C551C5A9CE700CD2C02 /* StatusViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E7F7D7661C16D58E00BCABF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7F7D7671C16D58E00BCABF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7F7D7691C16D58E00BCABF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DF6B6EBAFAE8B64E73C5524 /* Pods-MuseConnector.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/Headers/Muse";
+				INFOPLIST_FILE = MuseConnector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MuseConnector",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Mixpanel\"",
+					"-framework",
+					"\"SwiftHTTP\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shtaff.Concentrate;
+				PRODUCT_NAME = MuseConnector;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "MuseConnector-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7F7D76A1C16D58E00BCABF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7B6EF51FC1E96F9BF77841 /* Pods-MuseConnector.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/Headers/Muse";
+				INFOPLIST_FILE = MuseConnector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MuseConnector",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Mixpanel\"",
+					"-framework",
+					"\"SwiftHTTP\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shtaff.Concentrate;
+				PRODUCT_NAME = MuseConnector;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "MuseConnector-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7F7D74D1C16D58E00BCABF2 /* Build configuration list for PBXProject "MuseConnector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F7D7661C16D58E00BCABF2 /* Debug */,
+				E7F7D7671C16D58E00BCABF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7F7D7681C16D58E00BCABF2 /* Build configuration list for PBXNativeTarget "MuseConnector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F7D7691C16D58E00BCABF2 /* Debug */,
+				E7F7D76A1C16D58E00BCABF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7F7D74A1C16D58E00BCABF2 /* Project object */;
+}

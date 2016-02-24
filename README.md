@@ -1,4 +1,4 @@
-# Muse-Connector
+# Muse-Slack-Connector
 
 A very simple iOS app for connecting to a Muse headset via Bluetooth and to the Slack API, see [this post](medium.com)
 
